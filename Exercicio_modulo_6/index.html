@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="formulario">
+            <header>
+                <h1>Formulário de Validação</h1>
+            </header>
+        </div>
+        <div class="campos">
+        <form id="forms">
+        <div>
+            <label for="number1">Campo A</label>
+            <input type="number" id="number1" placeholder="Número 1" required>
+            <i><img for="number1" id="image3" src="./images/error-icon.svg" alt=""></i>
+            <i><img for="number1" id="image1" src="./images/success-icon.svg" alt=""></i>
+            <label for="number2">Campo B</label>
+            <input type="number" id="number2" placeholder="Número 2" required>
+            <i><img for="number2" id="image4" src="./images/error-icon.svg" alt=""></i>
+            <i><img for="number2" id="image2" src="./images/success-icon.svg" alt=""></i>
+            <button class="button" id="button" type="submit">ENVIAR</button>
+            <button class="reset" id="refresh" type="reset">LIMPAR</button>
+        </div>
+    </form>
+    <p class="mensagem-sucess">
+    </p><br>
+    <p class="mensagem-error">
+    </p>
+    </div>
+    </div>
+    <script src="./index.js"></script>
+</body>
+</html>
